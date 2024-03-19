@@ -1,0 +1,118 @@
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	--color-negro:#282d33
+	--menu-hover:#ec3642
+	--color-rojo:#ec3642
+	--fondo-header:#212121
+	--fondo-footer:#212121
+	--color-footer:#ccc
+	--color-texto:#fff
+}
+header{
+	background-color: var(fondo-header);
+}
+footer{
+	background-color: var(fondo-footer);
+	color: var(color-footer);
+	padding: 20px 0;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.carousel {
+  height: auto;
+  padding-bottom: 50px; 
+}
+
+.carousel-inner {
+  padding-bottom: 12%;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  text-align: center;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+
+.intro {
+    
+	padding-bottom:50px;
+}
+
+.intro-column {
+    background-color: #000000;
+    padding: 20px; 
+	margin-right: auto;
+	display: flex;
+}
+
+
+.products {
+  margin: 0 auto; 	
+  display: flex;
+  padding: 5px; 
+  padding-bottom:50px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr); 
+  grid-gap: 5px; 
+}
+
+.products h3 { 
+  text-align: center;
+  color: #fff; 
+}
+.products p { 
+  text-align: center;
+  color: #fff; 
+}
+
+.cta {
+	height: 400px;
+    background-image: url("../img/bg-parallax.png");
+    background-size: cover; 
+	text-align: center;
+}
+
+.cta h3{
+	font-weight: bold;
+	color: var(color-texto);
+}
+
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(color-rojo);
+}
